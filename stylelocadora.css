@@ -1,0 +1,35 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 0, 0, 0.397);
+}
+.botoes{
+    text-align: center;
+    border: 2px solid black;
+    background-color: red;
+    width: 20%;
+    height: 350px;
+    border-radius: 10px;
+}
+.titulo{
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px;
+}
+.diretor{
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px;
+}
+.opcoes{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+.cadastrar{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: darkblue;
+    color: white;
+}
+

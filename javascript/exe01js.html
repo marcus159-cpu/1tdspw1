@@ -1,0 +1,17 @@
+<meta charset="UTF-8">
+<script>
+    /*Estrutura de repetição for
+    Sintaxe
+    for(variavel com valor inicial; compara; alteração do valor variavel de controle){
+    comandos que serão repetidos}
+    exemplo: for(var i=0; i++){alert(i);}*/
+    /*Faça um programa que receba 3 números, calcule e exiba a média. Utilize for*/
+    let media = 0;
+    let soma = 0;
+    for(let i=0; i<=2; i++){
+        let numero = Number(prompt("Digite:"));
+        soma = soma + numero;
+    }
+    media = soma/3;
+    alert("Média: " + media.toFixed(2));
+</script>
